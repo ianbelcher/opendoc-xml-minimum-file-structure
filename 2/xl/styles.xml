@@ -13,7 +13,6 @@
 	</fonts>
 	<fills count="2">
 		<fill><patternFill patternType="none"/></fill>
-		<fill><patternFill patternType="gray125"/></fill>
 	</fills>
 	<borders count="1">
 		<border diagonalDown="false" diagonalUp="false">
@@ -25,22 +24,15 @@
 		</border>
 	</borders>
 	<cellStyleXfs count="2">
-		<xf applyAlignment="true" applyBorder="true" applyFont="true" applyProtection="true" borderId="0" fillId="0" fontId="0" numFmtId="164">
-			<alignment horizontal="general" indent="0" shrinkToFit="false" textRotation="0" vertical="bottom" wrapText="false"/>
-			<protection hidden="false" locked="true"/>
-		</xf>
-		<xf applyAlignment="true" applyBorder="true" applyFont="true" applyProtection="true" borderId="0" fillId="0" fontId="0" numFmtId="165">
-			<alignment horizontal="general" indent="0" shrinkToFit="false" textRotation="0" vertical="bottom" wrapText="false"/>
-			<protection hidden="false" locked="true"/>
-		</xf>
+		<xf borderId="0" fillId="0" fontId="0" numFmtId="164" />
+		<xf borderId="0" fillId="0" fontId="0" numFmtId="165" />
 	</cellStyleXfs>
-	<cellXfs count="1">
-		<xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="0" numFmtId="164" xfId="0">
-			<alignment horizontal="general" indent="0" shrinkToFit="false" textRotation="0" vertical="bottom" wrapText="false"/>
-			<protection hidden="false" locked="true"/>
-		</xf>
+	<cellXfs count="2">
+		<xf borderId="0" fillId="0" fontId="0" numFmtId="164" xfId="0" applyNumberFormat="1" />
+		<xf borderId="0" fillId="0" fontId="0" numFmtId="165" xfId="1" applyNumberFormat="1" />
 	</cellXfs>
-	<cellStyles count="1">
+	<cellStyles count="2">
 		<cellStyle builtinId="0" customBuiltin="false" name="Normal" xfId="0"/>
+		<cellStyle builtinId="0" customBuiltin="false" name="Date" xfId="1"/>
 	</cellStyles>
 </styleSheet>
