@@ -23,10 +23,10 @@
 <c r="A2" t="str">
 <v>This is string</v>
 </c>
-<c r="B2" t="str">
+<c r="B2" s="0" t="str">
 <v>2014-01-15 12:00:00</v>
 </c>
-<c r="C2" t="d">
+<c r="C2" s="0" t="str">
 <v>2014-01-01</v>
 </c>
 </row>
