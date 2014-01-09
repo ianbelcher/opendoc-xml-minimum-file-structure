@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
-	<dimension ref="A1:BB50000"/>
-	<sheetViews>
-		<sheetView tabSelected="1" workbookViewId="0"/>
-	</sheetViews>
-	<sheetFormatPr baseColWidth="10" defaultRowHeight="15" x14ac:dyDescent="0"/>
 	<cols>
-		<col min="1" max="16384" width="10.83203125" style="1"/>
+		<col min="1" max="16384" style="1"/>
 	</cols>
 	<sheetData>
-		<row r="1" spans="1:3">
-			<c r="A1" s="1" t="s">
-				<v>0</v>
+		<row r="1">
+			<c r="A1" s="1" t="str">
+				<v>001</v>
 			</c>
-			<c r="B1" s="1" t="s">
-				<v>1</v>
+			<c r="B1" s="1" t="str">
+				<v>002</v>
 			</c>
-			<c r="C1" s="1" t="s">
-				<v>2</v>
+			<c r="C1" s="1" t="str">
+				<v>003</v>
 			</c>
 		</row>
-		<row r="2" spans="1:3">
-			<c r="A2" s="1" t="s">
-				<v>3</v>
+		<row r="2">
+			<c r="A2" s="1" t="str">
+				<v>2014-01-01</v>
 			</c>
-			<c r="B2" s="1" t="s">
-				<v>4</v>
+			<c r="B2" s="1" t="str">
+				<v>12:00aM</v>
 			</c>
-			<c r="C2" s="1" t="s">
-				<v>5</v>
+			<c r="C2" s="1" t="str">
+				<v>12.00Pm</v>
 			</c>
 		</row>
 	</sheetData>
-	<pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/>
-	<extLst>
-		<ext uri="{64002731-A6B0-56B0-2670-7721B7C09600}" xmlns:mx="http://schemas.microsoft.com/office/mac/excel/2008/main">
-			<mx:PLV Mode="0" OnePage="0" WScale="0"/>
-		</ext>
-	</extLst>
 </worksheet>
