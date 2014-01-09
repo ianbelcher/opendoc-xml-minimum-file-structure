@@ -2,12 +2,13 @@
 <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
 	<cols>
 		<!-- Define all columns as text regardless. (We still need to define each cell for the sake of OSX Numbers) -->
-		<col min="1" max="1" style="1"/>
-		<col min="2" max="2" style="2"/>
-		<col min="3" max="3" style="3"/>
-		<col min="4" max="4" style="4"/>
-		<col min="5" max="5" style="5"/>
-		<col min="6" max="6" style="6"/>
+		<col min="1" max="1" style="1" bestFit="1" />
+		<col min="2" max="2" style="2" bestFit="1" />
+		<col min="3" max="3" style="3" bestFit="1" />
+		<col min="3" max="3" style="3" bestFit="1" />
+		<col min="4" max="4" style="4" bestFit="1" />
+		<col min="5" max="5" style="5" bestFit="1" />
+		<col min="6" max="6" style="6" bestFit="1" />
 	</cols>
 	<sheetData>
 		<!-- 
