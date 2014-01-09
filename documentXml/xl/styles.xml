@@ -4,9 +4,9 @@
 		<!-- Date -->
 		<numFmt numFmtId="165" formatCode="yyyy\-mm\-dd;@"/>
 		<!-- Time -->
-		<numFmt numFmtId="168" formatCode="h:mm:ss;@"/>
+		<numFmt numFmtId="168" formatCode="hh:mm:ss;@"/>
 		<!-- DateTime -->
-		<numFmt numFmtId="169" formatCode="yyyy\-mm\-dd h:mm:ss;@"/>
+		<numFmt numFmtId="169" formatCode="yyyy\-mm\-ddTh:mm:ss;@"/>
 		<!-- Currency -->
 		<numFmt numFmtId="170" formatCode="&quot;$&quot;#,##0.00;[Red]&quot;$&quot;#,##0.00"/>
 		<!-- Number -->

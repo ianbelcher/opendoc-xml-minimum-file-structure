@@ -2,7 +2,12 @@
 <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
 	<cols>
 		<!-- Define all columns as text regardless. (We still need to define each cell for the sake of OSX Numbers) -->
-		<col min="1" max="16000" style="1"/>
+		<col min="1" max="1" style="1"/>
+		<col min="2" max="2" style="2"/>
+		<col min="3" max="3" style="3"/>
+		<col min="4" max="4" style="4"/>
+		<col min="5" max="5" style="5"/>
+		<col min="6" max="6" style="6"/>
 	</cols>
 	<sheetData>
 		<!-- 
@@ -11,47 +16,47 @@
 			2: Date
 			3: Time
 			4: DateTime
-			5: Currency (Uses <f> instead of <v>)
-			6: Number (Uses <f> instead of <v>)
+			5: Currency (Uses t="n" instead of t="str")
+			6: Number (Uses t="n" instead of t="str")
 		 -->
 		<row r="1">
 			<c r="A1" s="1" t="str">
-				<v>001</v>
+				<v>Text 2</v>
 			</c>
 			<c r="B1" s="2" t="str">
-				<v>1</v>
+				<v>2014-01-01</v>
 			</c>
 			<c r="C1" s="3" t="str">
-				<v>003</v>
+				<v>12:00:00</v>
 			</c>
 			<c r="D1" s="4" t="str">
 				<v>2014-01-01T12:00:00</v>
 			</c>
-			<c r="E1" s="5" t="str">
-				<f>-100</f>
+			<c r="E1" s="5" t="n">
+				<v>-100</v>
 			</c>
-			<c r="F1" s="6" t="str">
-				<f>100</f>
+			<c r="F1" s="6" t="n">
+				<v>100</v>
 			</c>
 		</row>
 		<row r="2">
 			<c r="A2" s="1" t="str">
-				<v>2014-01-01</v>
+				<v>Text 3</v>
 			</c>
 			<c r="B2" s="2" t="str">
-				<v>2</v>
+				<v>2014-01-01</v>
 			</c>
 			<c r="C2" s="3" t="str">
-				<v>12.00Pm</v>
+				<v>12:00:00</v>
 			</c>
 			<c r="D2" s="4" t="str">
-				<v>2014-01-15T12:00:00</v>
+				<v>2014-01-01T12:00:00</v>
 			</c>
-			<c r="E2" s="5" t="str">
-				<f>100</f>
+			<c r="E2" s="5" t="n">
+				<v>100</v>
 			</c>
-			<c r="F2" s="6" t="str">
-				<f>-100</f>
+			<c r="F2" s="6" t="n">
+				<v>-100</v>
 			</c>
 		</row>
 	</sheetData>
